@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+k", "ctrl+space"], "command": "expand_tabs" }
+]

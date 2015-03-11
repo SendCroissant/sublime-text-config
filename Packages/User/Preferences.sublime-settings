@@ -1,0 +1,24 @@
+{
+	"charset": "utf-8",
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"end_of_line": "lf",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.sublime-*"
+	],
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_style": "spaces",
+	"rulers":
+	[
+		100
+	],
+	"scroll_past_end": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_whitespace": true
+}

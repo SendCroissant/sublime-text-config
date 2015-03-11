@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"name": "Source", 
+			"follow_symlinks": true,
+			"path": "/home/rost/projects/react_isomorphic"
+		}
+	]
+}
