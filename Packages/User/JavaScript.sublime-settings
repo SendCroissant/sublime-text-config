@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"pac"
+		"pac",
+		"js"
 	]
 }

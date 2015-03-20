@@ -1,1 +1,0 @@
-{"platforms": ["*"], "description": "JavaScript formatter plugin for Sublime Text", "sublime_text": "*", "url": "https://github.com/piuccio/sublime-esformatter", "dependencies": [], "version": "2015.01.05.11.35.11"}
