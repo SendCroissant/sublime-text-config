@@ -5,7 +5,8 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
-		"*.sublime-*"
+		"*.sublime-*",
+		".fuse_hidden*"
 	],
 	"font_size": 9,
 	"ignored_packages":
