@@ -1,4 +1,4 @@
-# Backup your current promt config
+# Backup your current prompt config
 echo $PS1
 
 # Colors
