@@ -2,8 +2,11 @@
     "files": [],
     "groups": {
         "Configs": [
-            "/home/rost/projects/.eslintrc"
+            {
+                "alias": ".eslintrc",
+                "file": "/home/rost/projects/.eslintrc"
+            }
         ]
     },
-    "version": 1
+    "version": 2
 }

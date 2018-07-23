@@ -1,12 +1,12 @@
 [
     { "keys": ["ctrl+space", "ctrl+tab"],   "command": "expand_tabs"               },
-    { "keys": ["ctrl+space", "ctrl+left"],  "command": "sublimelinter_goto_error", "args": {"direction": "previous"} },
-    { "keys": ["ctrl+space", "ctrl+right"], "command": "sublimelinter_goto_error", "args": {"direction": "next"}     },
-    { "keys": ["ctrl+space", "ctrl+up"],    "command": "sublimelinter_goto_error", "args": {"direction": "previous"} },
-    { "keys": ["ctrl+space", "ctrl+down"],  "command": "sublimelinter_goto_error", "args": {"direction": "next"}     },
-    { "keys": ["ctrl+space", "ctrl+enter"], "command": "run_multiple_commands",    "args": {"commands" :  [
-        { "command": "sublimelinter_lint"},
-        { "command": "sublimelinter_show_all_errors"}
+    { "keys": ["ctrl+space", "ctrl+left"],  "command": "sublime_linter_goto_error", "args": {"direction": "previous"} },
+    { "keys": ["ctrl+space", "ctrl+right"], "command": "sublime_linter_goto_error", "args": {"direction": "next"}     },
+    { "keys": ["ctrl+space", "ctrl+up"],    "command": "sublime_linter_goto_error", "args": {"direction": "previous"} },
+    { "keys": ["ctrl+space", "ctrl+down"],  "command": "sublime_linter_goto_error", "args": {"direction": "next"}     },
+    { "keys": ["ctrl+space", "ctrl+enter"], "command": "run_multiple_commands",     "args": {"commands" :  [
+        { "command": "sublime_linter_lint"},
+        { "command": "sublime_linter_show_all_errors"}
     ]} },
 
     { "keys": ["ctrl+shift+`"],             "command": "diffy"},
@@ -22,10 +22,13 @@
         { "command": "insert_snippet", "args": {"name": "Packages/User/console_warn.sublime-snippet"} }
     ]} },
 
+    { "keys": ["ctrl+,"], "command": "insert_snippet", "args": {"name": "Packages/User/json_stringify.sublime-snippet"} },
+
     { "keys": ["shift+ctrl+keypad1"], "command": "add_console_log_test"},
     { "keys": ["shift+ctrl+keypad0"], "command": "insert_snippet", "args": {"name": "Packages/User/console_warn.sublime-snippet", "PARAM1": "value"} },
 
     { "keys": ["ctrl+\\"],                  "command": "reindent",                 "args": {"single_line": true} },
     { "keys": ["alt+shift+keypad_plus"],    "command": "jump_forward" },
-    { "keys": ["ctrl+shift+alt+j"],         "command": "un_pretty_json"}
+    { "keys": ["ctrl+shift+alt+j"],         "command": "un_pretty_json"},
+    { "keys": ["ctrl+shift+keypad_multiply"],             "command": "list_all_commands"}
 ]

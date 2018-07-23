@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-doFunc(${SELECTION/^(.*)(.*)?$/(?{2}([\1|\2]):'value')/});
-]]></content>
-
-<!-- console.warn('[ ${2:${1}} ]', ${1:x}, ${TM_CURRENT_WORD:$PARAM1}, (?{SELECTION}(\SELECTION):'value'), $PARAM1); -->
-<!--console.warn('[ ${2:${1}} ]', ${1:${SELECTION:$PARAM1}});-->
-</snippet>

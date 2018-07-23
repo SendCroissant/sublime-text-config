@@ -1,5 +1,5 @@
 <snippet>
     <content><![CDATA[
-console.warn('[ ${2:${1}} ]', ${1:${SELECTION}});
+console.${3:w}${3/(e)|(w)|(i)|(l)|(d)|(t)|.*/(?1:rror)(?2:arn)(?3:nfo)(?4:og)(?5:ebug)(?6:race)/}(`[ ${2:${SELECTION}} ]`, ${1:${SELECTION}});
 ]]></content>
 </snippet>

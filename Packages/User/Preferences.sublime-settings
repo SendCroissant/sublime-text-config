@@ -21,7 +21,8 @@
 	],
 	"rulers":
 	[
-		100
+		100,
+		193
 	],
 	"scroll_past_end": false,
 	"tab_size": 4,

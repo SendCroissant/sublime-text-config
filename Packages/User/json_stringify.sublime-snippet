@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[
+JSON.stringify(${1:${SELECTION}}${2:, '', 4})
+]]></content>
+</snippet>
