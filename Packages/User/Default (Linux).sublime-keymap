@@ -1,3 +1,31 @@
 [
-    { "keys": ["ctrl+k", "ctrl+space"], "command": "expand_tabs" }
+    { "keys": ["ctrl+space", "ctrl+tab"],   "command": "expand_tabs"               },
+    { "keys": ["ctrl+space", "ctrl+left"],  "command": "sublimelinter_goto_error", "args": {"direction": "previous"} },
+    { "keys": ["ctrl+space", "ctrl+right"], "command": "sublimelinter_goto_error", "args": {"direction": "next"}     },
+    { "keys": ["ctrl+space", "ctrl+up"],    "command": "sublimelinter_goto_error", "args": {"direction": "previous"} },
+    { "keys": ["ctrl+space", "ctrl+down"],  "command": "sublimelinter_goto_error", "args": {"direction": "next"}     },
+    { "keys": ["ctrl+space", "ctrl+enter"], "command": "run_multiple_commands",    "args": {"commands" :  [
+        { "command": "sublimelinter_lint"},
+        { "command": "sublimelinter_show_all_errors"}
+    ]} },
+
+    { "keys": ["ctrl+shift+`"],             "command": "diffy"},
+
+    { "keys": ["ctrl+shift+space"],         "command": "align_tab",                "args": {"user_input": "\\s*/l1l0"} },
+    { "keys": ["ctrl+shift+alt+space"],     "command": "align_tab",                "args": {"user_input": "\\s+/f2"} },
+    { "keys": ["ctrl+shift+;"],             "command": "align_tab",                "args": {"user_input": "(?<=:) /l1l1f"} },
+    { "keys": ["ctrl+shift+="],             "command": "align_tab",                "args": {"user_input": "=/f"} },
+    { "keys": ["ctrl+shift+,"],             "command": "align_tab",                "args": {"user_input": "(?<=,) /l1l1"} },
+
+    { "keys": ["shift+ctrl+."],       "command": "run_multiple_commands",    "args": {"commands" :  [
+        { "command": "add_console_log"},
+        { "command": "insert_snippet", "args": {"name": "Packages/User/console_warn.sublime-snippet"} }
+    ]} },
+
+    { "keys": ["shift+ctrl+keypad1"], "command": "add_console_log_test"},
+    { "keys": ["shift+ctrl+keypad0"], "command": "insert_snippet", "args": {"name": "Packages/User/console_warn.sublime-snippet", "PARAM1": "value"} },
+
+    { "keys": ["ctrl+\\"],                  "command": "reindent",                 "args": {"single_line": true} },
+    { "keys": ["alt+shift+keypad_plus"],    "command": "jump_forward" },
+    { "keys": ["ctrl+shift+alt+j"],         "command": "un_pretty_json"}
 ]

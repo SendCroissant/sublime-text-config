@@ -1,0 +1,25 @@
+[
+  {
+    "id": "aligntab",
+    "caption": "Align By",
+    "children": [
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Double Vertical Bars (||)",
+        "command": "align_tab",
+        "args": {
+          "user_input": "\\|\\|"
+        }
+      },
+      {
+        "caption": "After Semicolons (:)",
+        "command": "align_tab",
+        "args": {
+          "user_input": "(?<=:) /l1l1f"
+        }
+      }
+    ]
+  }
+]

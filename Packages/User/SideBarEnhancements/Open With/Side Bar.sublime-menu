@@ -5,14 +5,14 @@
 
 			//application 1
 			{
-				"caption": "Photoshop",
-				"id": "side-bar-files-open-with-photoshop",
+				"caption": "Libre Office Spreadsheets",
+				"id": "libre-office-spreadsheets",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "Adobe Photoshop CS5.app", // OSX
-									"extensions":"psd|png|jpg|jpeg"  //any file with these extensions
+									"application": "/usr/bin/libreoffice",
+									"extensions":"csv"
 								},
 				"open_automatically" : false // will close the view/tab and launch the application
 			},
@@ -21,19 +21,6 @@
 			{"caption":"-"},
 
 			//application 2
-			{
-				"caption": "SeaMonkey",
-				"id": "side-bar-files-open-with-seamonkey",
-
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "C:\\Archivos de programa\\SeaMonkey\\seamonkey.exe", // WINNT
-									"extensions":"" //open all even folders
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			},
-			//application n
 			{
 				"caption": "Chrome",
 				"id": "side-bar-files-open-with-chrome",

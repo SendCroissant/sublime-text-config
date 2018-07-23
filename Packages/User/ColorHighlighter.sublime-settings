@@ -1,0 +1,7 @@
+{
+    "ha_style": "filled",
+    "icons_all": true,
+    "highlight_all": true,
+    "file_exts": [".css", ".sass", ".scss", ".less", ".styl", ".html", ".js", ".json", ".sublime-settings", ".tmTheme", ".erb", ".haml"],
+    "convert_util_path": "/usr/local/bin/convert"
+}

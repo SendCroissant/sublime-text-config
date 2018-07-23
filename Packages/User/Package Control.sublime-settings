@@ -1,13 +1,33 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
-		"CSS3",
-		"EasyDiff",
-		"JavaScript & NodeJS Snippets",
-		"Package Control",
-		"SideBarEnhancements"
-	]
+        "AlignTab",
+        "All Autocomplete",
+        "Case Conversion",
+        "Color Highlighter",
+        "CSS3",
+        "Diffy",
+        "EasyDiff",
+        "Emmet",
+        "FavoriteFiles",
+        "HexViewer",
+        "Indent XML",
+        "Insert Nums",
+        "Jade",
+        "JavaScript & NodeJS Snippets",
+        "JavaScriptNext - ES6 Syntax",
+        "nginx",
+        "Open URL",
+        "Package Control",
+        "Pretty JSON",
+        "SCSS",
+        "SideBarEnhancements",
+        "Sort Lines (Numerically)",
+        "SublimeLinter",
+        "SublimeLinter-contrib-eslint"
+    ]
 }
